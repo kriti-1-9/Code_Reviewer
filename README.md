@@ -24,7 +24,8 @@ This service gives every engineer an instant, consistent first-pass review with 
 
 ## Architecture
 
-```PR / CLI / API  →  Cloud Run (FastAPI)
+```
+PR / CLI / API  →  Cloud Run (FastAPI)
 ↓
 Gemini (Vertex AI)  ← historical context from Firestore
 ↓
