@@ -31,7 +31,8 @@ Gemini (Vertex AI)  ← historical context from Firestore
 ↓
 Structured review + quality score
 ↓
-Store in Firestore (+ optional PR comments)```
+Store in Firestore (+ optional PR comments)
+```
 
 
 ## Quick Start (Local)
