@@ -33,26 +33,3 @@ Structured review + quality score
 ↓
 Store in Firestore (+ optional PR comments)
 ```
-
-
-## Quick Start (Local)
-
-```bash
-# 1. Clone & setup
-git clone https://github.com/YOUR_USERNAME/24-7-intelligent-code-reviewer.git
-cd 24-7-intelligent-code-reviewer
-
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-
-# 2. Configure
-cp .env.example .env
-# Edit .env → set GCP_PROJECT_ID
-
-# 3. Authenticate with GCP
-gcloud auth application-default login
-gcloud config set project YOUR_PROJECT_ID
-
-# 4. Run
-uvicorn app.main:app --reload --port 8080
